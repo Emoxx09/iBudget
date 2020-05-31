@@ -1,0 +1,63 @@
+name: workingproject
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.8.1
+  flutter_sparkline: ^0.1.0
+  percent_indicator: ^2.1.3
+  path_provider: ^1.6.8
+  sqflite:
+  path:
+  scoped_model: ^1.0.1
+  fl_chart: ^0.9.4
+  month_picker_dialog: ^0.3.2
+  flutter_rounded_date_picker: ^1.0.4
+  flutter_cupertino_date_picker: ^1.0.26
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+
+  fonts:
+    - family: CenturyGothic
+      fonts:
+        - asset: fonts/CenturyGothic.ttf
+
+  uses-material-design: true
+  assets:
+    - images/fare.png
+    - images/food.png
+    - images/personal.png
+    - images/schoolwork.png
+    - black-abstract-background.png
+    - images/go-icon.png
+    - images/expense.png
+    - images/savings.png
